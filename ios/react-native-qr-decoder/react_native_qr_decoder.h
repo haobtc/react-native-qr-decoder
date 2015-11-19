@@ -3,7 +3,7 @@
 //  react-native-qr-decoder
 //
 //  Created by phil on 15/11/19.
-//  Copyright © 2015年 phil. All rights reserved.
+//  Copyright © 2015 phil. All rights reserved.
 //
 
 #import "RCTBridgeModule.h"
