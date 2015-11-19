@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A71F81A1BFDBCD300B59065 /* react_native_qr_decoder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A71F8191BFDBCD300B59065 /* react_native_qr_decoder.h */; };
+		4A71F81C1BFDBCD300B59065 /* react_native_qr_decoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A71F81B1BFDBCD300B59065 /* react_native_qr_decoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A71F8141BFDBCD300B59065 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4A71F81A1BFDBCD300B59065 /* react_native_qr_decoder.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A71F8161BFDBCD300B59065 /* libreact-native-qr-decoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libreact-native-qr-decoder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A71F8191BFDBCD300B59065 /* react_native_qr_decoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = react_native_qr_decoder.h; sourceTree = "<group>"; };
+		4A71F81B1BFDBCD300B59065 /* react_native_qr_decoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_qr_decoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A71F8131BFDBCD300B59065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A71F80D1BFDBCD300B59065 = {
+			isa = PBXGroup;
+			children = (
+				4A71F8181BFDBCD300B59065 /* react-native-qr-decoder */,
+				4A71F8171BFDBCD300B59065 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A71F8171BFDBCD300B59065 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A71F8161BFDBCD300B59065 /* libreact-native-qr-decoder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A71F8181BFDBCD300B59065 /* react-native-qr-decoder */ = {
+			isa = PBXGroup;
+			children = (
+				4A71F8191BFDBCD300B59065 /* react_native_qr_decoder.h */,
+				4A71F81B1BFDBCD300B59065 /* react_native_qr_decoder.m */,
+			);
+			path = "react-native-qr-decoder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A71F8151BFDBCD300B59065 /* react-native-qr-decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A71F81F1BFDBCD300B59065 /* Build configuration list for PBXNativeTarget "react-native-qr-decoder" */;
+			buildPhases = (
+				4A71F8121BFDBCD300B59065 /* Sources */,
+				4A71F8131BFDBCD300B59065 /* Frameworks */,
+				4A71F8141BFDBCD300B59065 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-qr-decoder";
+			productName = "react-native-qr-decoder";
+			productReference = 4A71F8161BFDBCD300B59065 /* libreact-native-qr-decoder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A71F80E1BFDBCD300B59065 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = phil;
+				TargetAttributes = {
+					4A71F8151BFDBCD300B59065 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A71F8111BFDBCD300B59065 /* Build configuration list for PBXProject "react-native-qr-decoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A71F80D1BFDBCD300B59065;
+			productRefGroup = 4A71F8171BFDBCD300B59065 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A71F8151BFDBCD300B59065 /* react-native-qr-decoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A71F8121BFDBCD300B59065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A71F81C1BFDBCD300B59065 /* react_native_qr_decoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A71F81D1BFDBCD300B59065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A71F81E1BFDBCD300B59065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A71F8201BFDBCD300B59065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4A71F8211BFDBCD300B59065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A71F8111BFDBCD300B59065 /* Build configuration list for PBXProject "react-native-qr-decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71F81D1BFDBCD300B59065 /* Debug */,
+				4A71F81E1BFDBCD300B59065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A71F81F1BFDBCD300B59065 /* Build configuration list for PBXNativeTarget "react-native-qr-decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A71F8201BFDBCD300B59065 /* Debug */,
+				4A71F8211BFDBCD300B59065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A71F80E1BFDBCD300B59065 /* Project object */;
+}

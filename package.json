@@ -1,0 +1,22 @@
+{
+  "name": "react-native-qr-decoder",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/haobtc/react-native-qr-decoder.git"
+  },
+  "version": "1.0.3",
+  "description": "react native qrcode decorder from local image file.",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qrcode",
+    "react",
+    "decoder",
+    "local",
+    "image"
+  ],
+  "author": "philsong",
+  "license": "MIT"
+}
